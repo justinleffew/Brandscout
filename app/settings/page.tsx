@@ -1,0 +1,1 @@
+export default function Page(){return <main className='space-y-4'><h1 className='text-2xl font-semibold capitalize'>settings</h1><div className='card'>Brand Scout settings workspace with premium cards, filters and workflow placeholders tied to server agents.</div></main>}
