@@ -1,0 +1,1 @@
+export async function GET(){const configured=Boolean(process.env.GOOGLE_CLIENT_ID&&process.env.GOOGLE_CLIENT_SECRET&&process.env.GOOGLE_REDIRECT_URI);return Response.json({configured,authUrl:configured?'https://accounts.google.com/o/oauth2/v2/auth':'manual-mode'})}

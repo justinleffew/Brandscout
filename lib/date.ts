@@ -1,0 +1,1 @@
+export function addBusinessDays(date:Date,days:number){const d=new Date(date);let added=0;while(added<days){d.setDate(d.getDate()+1);const wd=d.getDay();if(wd!==0&&wd!==6)added++;}return d.toISOString()}

@@ -1,0 +1,1 @@
+export default function Page(){return <main className='space-y-4'><h1 className='text-2xl font-semibold capitalize'>dashboard</h1><div className='card'>Brand Scout dashboard workspace with premium cards, filters and workflow placeholders tied to server agents.</div></main>}
